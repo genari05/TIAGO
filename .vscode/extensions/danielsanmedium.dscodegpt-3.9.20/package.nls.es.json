@@ -1,0 +1,23 @@
+{
+    "walkthrough.welcome.title": "Bienvenido a CodeGPT",
+    "walkthrough.welcome.description": "Aprende cómo desbloquear el máximo potencial de CodeGPT y personalizar tu experiencia.",
+    "walkthrough.createAccount.title": "Crea una Cuenta en CodeGPT",
+    "walkthrough.createAccount.description": "Regístrate para desbloquear funciones avanzadas como Studio y los agentes del marketplace.",
+    "walkthrough.createAccount.altText": "Pantalla de registro de CodeGPT",
+    "walkthrough.setupConnection.title": "Configura tu Conexión Preferida",
+    "walkthrough.setupConnection.description": "Elige cómo usar CodeGPT: conecta tu cuenta, utiliza tu propia API key o configura un modelo local.",
+    "walkthrough.setupConnection.altText": "Opciones de configuración para conectar CodeGPT",
+    "walkthrough.exploreChat.title": "Explora el Chat de CodeGPT",
+    "walkthrough.exploreChat.description": "Abre el Chat desde el menú principal para interactuar con modelos de IA y acceder a configuraciones avanzadas.",
+    "walkthrough.exploreChat.altText": "Pantalla principal del chat de CodeGPT",
+    "walkthrough.tryAutocomplete.title": "Prueba el Autocompletado de Código",
+    "walkthrough.tryAutocomplete.description": "Escribe código en el editor y observa cómo CodeGPT sugiere líneas completas basadas en IA.",
+    "walkthrough.tryAutocomplete.altText": "Demostración de autocompletado de código con CodeGPT",
+    "walkthrough.inlineEdit.title": "Descubre la Edición de Código Inline",
+    "walkthrough.inlineEdit.description": "Selecciona un fragmento de código, presiona Ctrl+Shift+P y elige **CodeGPT: Editar Código Inline** para recibir sugerencias de mejora.",
+    "walkthrough.inlineEdit.altText": "Demostración de edición en línea con CodeGPT",
+    "walkthrough.exploreStudio.title": "Explora CodeGPT Studio",
+    "walkthrough.exploreStudio.description": "Accede a Studio para crear agentes personalizados con tus datos o repositorios y usar los agentes del marketplace.",
+    "walkthrough.exploreStudio.altText": "Interfaz de CodeGPT Studio"
+  }
+  

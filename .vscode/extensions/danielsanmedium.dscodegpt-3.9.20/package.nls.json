@@ -1,0 +1,23 @@
+{
+    "walkthrough.welcome.title": "Welcome to CodeGPT",
+    "walkthrough.welcome.description": "Learn how to unlock the full potential of CodeGPT and customize your experience.",
+    "walkthrough.createAccount.title": "Create a CodeGPT Account",
+    "walkthrough.createAccount.description": "Sign up to unlock advanced features like Studio and marketplace AI agents.",
+    "walkthrough.createAccount.altText": "CodeGPT signup screen",
+    "walkthrough.setupConnection.title": "Set Up Your Preferred Connection",
+    "walkthrough.setupConnection.description": "Choose how to use CodeGPT: connect your account, use your own API key, or set up a local model.",
+    "walkthrough.setupConnection.altText": "Configuration options for connecting CodeGPT",
+    "walkthrough.exploreChat.title": "Explore CodeGPT Chat",
+    "walkthrough.exploreChat.description": "Open the Chat from the main menu to interact with AI models and access advanced settings.",
+    "walkthrough.exploreChat.altText": "Main chat screen of CodeGPT",
+    "walkthrough.tryAutocomplete.title": "Try Code Autocompletion",
+    "walkthrough.tryAutocomplete.description": "Write code in the editor and see how CodeGPT suggests complete lines based on AI.",
+    "walkthrough.tryAutocomplete.altText": "Code autocompletion demo in CodeGPT",
+    "walkthrough.inlineEdit.title": "Discover Inline Code Edit",
+    "walkthrough.inlineEdit.description": "Select a code snippet, press Ctrl+Shift+P, and choose **CodeGPT: Inline Code Edit** for AI-powered suggestions.",
+    "walkthrough.inlineEdit.altText": "Inline code editing demo with CodeGPT",
+    "walkthrough.exploreStudio.title": "Explore CodeGPT Studio",
+    "walkthrough.exploreStudio.description": "Access Studio to create custom agents with your data or repositories and use marketplace agents.",
+    "walkthrough.exploreStudio.altText": "CodeGPT Studio interface"
+  }
+  

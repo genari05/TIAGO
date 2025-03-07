@@ -1,0 +1,23 @@
+{
+    "walkthrough.welcome.title": "Bem-vindo ao CodeGPT",
+    "walkthrough.welcome.description": "Aprenda a desbloquear todo o potencial do CodeGPT e a personalizar sua experiência.",
+    "walkthrough.createAccount.title": "Crie uma Conta no CodeGPT",
+    "walkthrough.createAccount.description": "Cadastre-se para desbloquear recursos avançados como Studio e agentes do marketplace.",
+    "walkthrough.createAccount.altText": "Tela de cadastro do CodeGPT",
+    "walkthrough.setupConnection.title": "Configure sua Conexão Preferida",
+    "walkthrough.setupConnection.description": "Escolha como usar o CodeGPT: conecte sua conta, use sua própria API key ou configure um modelo local.",
+    "walkthrough.setupConnection.altText": "Opções de configuração para conectar o CodeGPT",
+    "walkthrough.exploreChat.title": "Explore o Chat do CodeGPT",
+    "walkthrough.exploreChat.description": "Abra o Chat no menu principal para interagir com modelos de IA e acessar configurações avançadas.",
+    "walkthrough.exploreChat.altText": "Tela principal do chat do CodeGPT",
+    "walkthrough.tryAutocomplete.title": "Experimente a Autocompletação de Código",
+    "walkthrough.tryAutocomplete.description": "Escreva código no editor e veja como o CodeGPT sugere linhas completas baseadas em IA.",
+    "walkthrough.tryAutocomplete.altText": "Demonstração de autocompletação de código no CodeGPT",
+    "walkthrough.inlineEdit.title": "Descubra a Edição de Código Inline",
+    "walkthrough.inlineEdit.description": "Selecione um trecho de código, pressione Ctrl+Shift+P e escolha **CodeGPT: Editar Código Inline** para receber sugestões baseadas em IA.",
+    "walkthrough.inlineEdit.altText": "Demonstração de edição de código inline com o CodeGPT",
+    "walkthrough.exploreStudio.title": "Explore o CodeGPT Studio",
+    "walkthrough.exploreStudio.description": "Acesse o Studio para criar agentes personalizados com seus dados ou repositórios e usar agentes do marketplace.",
+    "walkthrough.exploreStudio.altText": "Interface do CodeGPT Studio"
+  }
+  

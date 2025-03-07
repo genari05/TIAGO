@@ -1,0 +1,387 @@
+{
+	"name": "dscodegpt",
+	"displayName": "CodeGPT: Chat & AI Agents",
+	"publisher": "DanielSanMedium",
+	"description": "Easily Connect to Top AI Providers Using Their Official APIs in VSCode",
+	"license": "Proprietary",
+	"icon": "logo_codegpt.png",
+	"version": "3.9.20",
+	"engines": {
+		"vscode": "^1.82.0",
+		"node": ">=18.0.0"
+	},
+	"categories": [
+		"Data Science",
+		"Machine Learning",
+		"Programming Languages",
+		"Testing",
+		"Linters",
+		"Formatters",
+		"Education"
+	],
+	"keywords": [
+		"chatgpt",
+		"codegpt",
+		"copilot",
+		"openai",
+		"ai",
+		"llama",
+		"gpt",
+		"deepseek",
+		"claude"
+	],
+	"activationEvents": [
+		"onStartupFinished",
+		"onCommand:codegpt.generateCommitMessage"
+	],
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": "limited"
+		}
+	},
+	"main": "./dist/extension.js",
+	"contributes": {
+		"icons": {
+			"codegpt-logotype": {
+				"description": "codegpt logotype",
+				"default": {
+					"id": "CodeGPT",
+					"fontPath": "media/fontgpt.woff",
+					"fontCharacter": "\\E800"
+				}
+			}
+		},
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "codegpt-sidebar-view",
+					"title": "CodeGPT Chat",
+					"icon": "media/code_gpt_bar.svg"
+				}
+			]
+		},
+		"views": {
+			"codegpt-sidebar-view": [
+				{
+					"type": "webview",
+					"id": "codegpt-sidebar",
+					"name": "CodeGPT Chat"
+				}
+			]
+		},
+		"configuration": [
+			{
+				"title": "CodeGPT",
+				"properties": {
+					"CodeGPT.apiKey": {
+						"type": "string",
+						"default": "CodeGPT Plus Beta",
+						"markdownDescription": "Select your AI provider:",
+						"enum": [
+							"CodeGPT Plus",
+							"CodeGPT Enterprise",
+							"OpenAI",
+							"Vertex",
+							"Google AI Studio",
+							"Nvidia",
+							"Cohere",
+							"Anthropic",
+							"HuggingFace",
+							"Azure",
+							"Ollama",
+							"Fireworks AI",
+							"Mistral",
+							"Custom",
+							"Bedrock",
+							"Perplexity",
+							"LM Studio",
+							"Groq",
+							"DeepSeek",
+							"Github",
+							"Cerebras",
+							"Github Copilot",
+							"Grok"
+						]
+					}
+				}
+			}
+		],
+		"commands": [
+			{
+				"command": "codegpt.onCompletionAccepted",
+				"title": "CodeGPT: On Completion Accepted"
+			},
+			{
+				"command": "notifications-sample.showInfo",
+				"title": "Show Info Notification",
+				"category": "Notifications"
+			},
+			{
+				"command": "codegpt.generateCommitMessage",
+				"title": "Generate Commit CodeGPT",
+				"icon": "$(lightbulb-sparkle)"
+			},
+			{
+				"command": "notifications-sample.showNextError",
+				"title": "Show Error Notification",
+				"category": "Notifications"
+			},
+			{
+				"command": "codegpt.askStackOverflow",
+				"title": "CodeGPT: Ask StackOverflow CodeGPT"
+			},
+			{
+				"command": "codegpt.searchApisCodeGPT",
+				"title": "CodeGPT: Search APIs CodeGPT"
+			},
+			{
+				"command": "codegpt.explainCodeGPT",
+				"title": "CodeGPT: Explain"
+			},
+			{
+				"command": "codegpt.resetCodeGPT",
+				"title": "CodeGPT: Reset"
+			},
+			{
+				"command": "codegpt.inlineCodeEditCodeGPT",
+				"title": "CodeGPT: Inline Code Edit"
+			},
+			{
+				"command": "codegpt.fixCodeGPT",
+				"title": "CodeGPT: Fix"
+			},
+			{
+				"command": "codegpt.refactorCodeGPT",
+				"title": "CodeGPT: Refactor"
+			},
+			{
+				"command": "codegpt.documentCodeGPT",
+				"title": "CodeGPT: Document"
+			},
+			{
+				"command": "codegpt.findProblemsCodeGPT",
+				"title": "CodeGPT: Find Problems"
+			},
+			{
+				"command": "codegpt.unitTestCodeGPT",
+				"title": "CodeGPT: Unit Test"
+			},
+			{
+				"command": "codegpt.runJupyterNotebook",
+				"title": "CodeGPT: Run Code Interpreter (Python)"
+			},
+			{
+				"command": "codegpt.getCode",
+				"title": "CodeGPT: Get Code from comments"
+			},
+			{
+				"command": "codegpt.quickFixCodeGPT",
+				"title": "CodeGPT: vscode Quick Fix"
+			},
+			{
+				"command": "codegpt.signInChatCodeGPT",
+				"title": "Sign In",
+				"icon": "$(sign-in)"
+			},
+			{
+				"command": "codegpt.signUpCodeGPT",
+				"title": "Sign Up",
+				"icon": "$(person-add)"
+			},
+			{
+				"command": "codegpt.aboutCodeGPT",
+				"title": "CodeGPT: About",
+				"icon": "$(remote-explorer-documentation)"
+			},
+			{
+				"command": "codegpt.selectionCodeGPT",
+				"title": "✂️ CodeGPT: Add to chat",
+				"alt": "✂️ CodeGPT: Add to chat",
+				"shortTitle": "✂️ Add to CodeGPT"
+			},
+			{
+				"command": "codegpt.openReviewCodeGPT",
+				"title": "Review",
+				"shortTitle": "Review",
+				"icon": "$(star)"
+			},
+			{
+				"command": "codegpt.copyFromTerminal",
+				"title": "✂️ Add to CodeGPT",
+				"shortTitle": "✂️ Add to CodeGPT"
+			},
+			{
+				"command": "workbench.action.restartExtensionHost",
+				"title": "Restart CodeGPT",
+				"shortTitle": "Restart CodeGPT",
+				"icon": "$(refresh)"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "codegpt.selectionCodeGPT",
+				"when": "editorHasSelection",
+				"key": "ctrl+shift+i",
+				"mac": "cmd+shift+i"
+			},
+			{
+				"command": "codegpt.inlineCodeEditCodeGPT",
+				"key": "ctrl+shift+k",
+				"mac": "cmd+shift+k"
+			}
+		],
+		"menus": {
+			"view/title": [
+				{
+					"command": "codegpt.aboutCodeGPT",
+					"group": "navigation@3",
+					"when": "view == codegpt-sidebar"
+				},
+				{
+					"command": "workbench.action.restartExtensionHost",
+					"when": "view == codegpt-sidebar",
+					"group": "navigation@5"
+				}
+			],
+			"editor/context": [
+				{
+					"command": "codegpt.selectionCodeGPT",
+					"when": "editorHasSelection",
+					"group": "codegpt-menu-group@1"
+				},
+				{
+					"command": "codegpt.inlineCodeEditCodeGPT",
+					"when": "editorHasSelection",
+					"group": "codegpt-menu-group@2"
+				},
+				{
+					"command": "codegpt.documentCodeGPT",
+					"when": "editorHasSelection",
+					"group": "codegpt-menu-group@4"
+				},
+				{
+					"command": "codegpt.refactorCodeGPT",
+					"when": "editorHasSelection",
+					"group": "codegpt-menu-group@5"
+				},
+				{
+					"command": "codegpt.explainCodeGPT",
+					"when": "editorHasSelection",
+					"group": "codegpt-menu-group@6"
+				},
+				{
+					"command": "codegpt.findProblemsCodeGPT",
+					"when": "editorHasSelection",
+					"group": "codegpt-menu-group@7"
+				},
+				{
+					"command": "codegpt.unitTestCodeGPT",
+					"when": "editorHasSelection",
+					"group": "codegpt-menu-group@8"
+				}
+			],
+			"commandPalette": [
+				{
+					"command": "codegpt.explainCodeGPT",
+					"when": "editorHasSelection"
+				},
+				{
+					"command": "codegpt.inlineCodeEditCodeGPT",
+					"when": "editorHasSelection"
+				},
+				{
+					"command": "codegpt.fixCodeGPT",
+					"when": "editorHasSelection"
+				},
+				{
+					"command": "codegpt.refactorCodeGPT",
+					"when": "editorHasSelection"
+				},
+				{
+					"command": "codegpt.documentCodeGPT",
+					"when": "editorHasSelection"
+				},
+				{
+					"command": "codegpt.findProblemsCodeGPT",
+					"when": "editorHasSelection"
+				},
+				{
+					"command": "codegpt.unitTestCodeGPT",
+					"when": "editorHasSelection"
+				},
+				{
+					"command": "codegpt.runJupyterNotebook",
+					"when": "editorHasSelection"
+				},
+				{
+					"command": "codegpt.selectionCodeGPT",
+					"when": "editorHasSelection"
+				}
+			],
+			"editor/lineNumber/context": [
+				{
+					"command": "codegpt.selectionCodeGPT",
+					"group": "bookmarks",
+					"alt": "codegpt.selectionCodeGPT",
+					"when": "editorHasSelection"
+				}
+			],
+			"terminal/context": [
+				{
+					"command": "codegpt.copyFromTerminal",
+					"group": "navigation@1"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"lint": "eslint . --fix",
+		"pretest": "npm run lint",
+		"build": "node build.js",
+		"vscode:prepublish": "npm run build",
+		"vscode:package": "npx vsce package",
+		"vscode:pre-release": "npx vsce publish --pre-release",
+		"vscode:publish": "npx vsce publish",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^8.0.0",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "^18.19.4",
+		"@types/vscode": "^1.82.0",
+		"@vscode/test-electron": "^2.2.0",
+		"esbuild": "^0.19.4",
+		"eslint": "^8.35.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-n": "^15.6.1",
+		"eslint-plugin-promise": "^6.1.1",
+		"glob": "^8.0.3",
+		"mocha": "^10.1.0",
+		"typescript": "^4.9.3"
+	},
+	"dependencies": {
+		"axios": "^1.6.5",
+		"body-parser": "^1.20.2",
+		"cheerio": "^1.0.0-rc.12",
+		"cohere-ai": "^5.1.0",
+		"fake-diff": "^1.0.0",
+		"gpt-tokenizer": "^2.1.2",
+		"ignore": "^7.0.3",
+		"isbinaryfile": "^5.0.4",
+		"openai": "^4.55.2",
+		"polka": "^0.5.2",
+		"portfinder": "^1.0.32",
+		"string-similarity-js": "^2.1.4",
+		"tar": "^7.4.3",
+		"uuid": "^9.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/davila7/code-gpt-docs"
+	},
+	"__metadata": {
+		"installedTimestamp": 1741221931944,
+		"size": 60855967
+	}
+}

@@ -1,0 +1,67 @@
+{
+  "app/components/chat/chunks/files-relation-graph.tsx -> react-force-graph-2d": {
+    "id": 91681,
+    "files": [
+      "static/chunks/681.9be56a2d3c885416.js"
+    ]
+  },
+  "node_modules/@builder.io/react-hydration-overlay/dist/Overlay-client-LJE4Lx_4.js -> @spotlightjs/spotlight": {
+    "id": 94422,
+    "files": [
+      "static/chunks/e585a133.5ebc9258486c52f7.js",
+      "static/chunks/422.ae6f3d2ded7c3307.js"
+    ]
+  },
+  "node_modules/@heroui/accordion/dist/chunk-6MMBG3SS.mjs -> @heroui/dom-animation": {
+    "id": 79272,
+    "files": []
+  },
+  "node_modules/@heroui/calendar/dist/chunk-PWIUQNTN.mjs -> @heroui/dom-animation": {
+    "id": 79272,
+    "files": []
+  },
+  "node_modules/@heroui/modal/dist/chunk-UKDXCIYN.mjs -> @heroui/dom-animation": {
+    "id": 79272,
+    "files": [
+      "static/chunks/468-2d19954513f47799.js",
+      "static/chunks/724.16e1362c2f17478a.js"
+    ]
+  },
+  "node_modules/@heroui/navbar/dist/chunk-5ZHOTS66.mjs -> @heroui/dom-animation": {
+    "id": 79272,
+    "files": []
+  },
+  "node_modules/@heroui/navbar/dist/chunk-BKQISTKS.mjs -> @heroui/dom-animation": {
+    "id": 79272,
+    "files": []
+  },
+  "node_modules/@heroui/popover/dist/chunk-REV5W46G.mjs -> @heroui/dom-animation": {
+    "id": 79272,
+    "files": []
+  },
+  "node_modules/@heroui/popover/dist/chunk-ZPGVNVU7.mjs -> @heroui/dom-animation": {
+    "id": 79272,
+    "files": [
+      "static/chunks/780.0aa451ff36a7b179.js"
+    ]
+  },
+  "node_modules/@heroui/ripple/dist/chunk-QHRCZSEO.mjs -> @heroui/dom-animation": {
+    "id": 79272,
+    "files": [
+      "static/chunks/468-2d19954513f47799.js",
+      "static/chunks/724.16e1362c2f17478a.js"
+    ]
+  },
+  "node_modules/@heroui/tooltip/dist/chunk-6LIX6LVT.mjs -> @heroui/dom-animation": {
+    "id": 79272,
+    "files": [
+      "static/chunks/780.0aa451ff36a7b179.js"
+    ]
+  },
+  "node_modules/@spotlightjs/overlay/dist/index-d9098dd4.js -> ./main-ee4319a4.js": {
+    "id": 10433,
+    "files": [
+      "static/chunks/2b4dc9d3.a865962044025f2e.js"
+    ]
+  }
+}
